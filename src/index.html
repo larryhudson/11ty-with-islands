@@ -1,0 +1,20 @@
+---
+layout: layout.njk
+---
+
+<h1>Alpine example, on visible</h1>
+
+<hr style="height: 100vh">
+
+<is-land on:visible import="https://unpkg.com/alpinejs">
+    <p>Here's my fall-back content</p>
+    <template data-island="replace">
+        <div x-data="{ count: 0 }">
+		Hello from Alpine.js!
+
+		<button @click="count++">⬆️</button>
+            <button @click="count--">⬇️</button>
+            <span x-text="count"></span>
+        </div>
+    </template>
+</is-land>

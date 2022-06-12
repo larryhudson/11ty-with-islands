@@ -30,6 +30,7 @@
     "url": "git+https://github.com/larryhudson/<REPLACE THIS!>.git"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^2.0.0-canary.11",
+    "@11ty/is-land": "^1.0.0"
   }
 }
