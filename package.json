@@ -1,7 +1,7 @@
 {
-  "name": "scaffold-eleventy-site",
+  "name": "11ty-with-islands",
   "version": "1.0.0",
-  "description": "Template for Eleventy site development",
+  "description": "Example of 11ty with islands architecture",
   "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -17,9 +17,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/larryhudson/<REPLACE THIS!>/issues"
+    "url": "https://github.com/larryhudson/11ty-with-islands/issues"
   },
-  "homepage": "https://github.com/larryhudson/<REPLACE THIS!>#readme",
+  "homepage": "https://github.com/larryhudson/11ty-with-islands#readme",
   "author": {
     "name": "Larry Hudson",
     "email": "larryhudson@hey.com",
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/larryhudson/<REPLACE THIS!>.git"
+    "url": "git+https://github.com/larryhudson/11ty-with-islands.git"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.11",
+    "@11ty/eleventy": "^1.0.1",
     "@11ty/is-land": "^1.0.0"
   }
 }
