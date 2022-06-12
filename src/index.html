@@ -4,7 +4,9 @@ layout: layout.njk
 
 <h1>Alpine example, on visible</h1>
 
-<hr style="height: 100vh">
+<div style="height: 100vh">
+    <p>Scroll down for the alpine example</p>
+</div>
 
 <is-land on:visible import="https://unpkg.com/alpinejs">
     <p>Here's my fall-back content</p>
@@ -17,4 +19,12 @@ layout: layout.njk
             <span x-text="count"></span>
         </div>
     </template>
+</is-land>
+
+<div style="height: 100vh">
+    <p>Scroll down for the youtube embed</p>
+</div>
+
+<is-land on:visible import="/web-components/lite-youtube-embed/lite-yt-embed.js">
+    <lite-youtube videoid="ogfYd705cRs" playlabel="Play: Keynote (Google I/O '18)"></lite-youtube>
 </is-land>
